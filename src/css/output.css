@@ -544,20 +544,50 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.w-full {
-  width: 100%;
+.m-10 {
+  margin: 2.5rem;
 }
 
-.bg-slate-200 {
+.m-20 {
+  margin: 5rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  background-color: rgb(118 17 166 / var(--tw-bg-opacity));
 }
 
-.bg-slate-950 {
+.bg-secondary {
   --tw-bg-opacity: 1;
-  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+  background-color: rgb(213 135 59 / var(--tw-bg-opacity));
 }
 
-.p-80 {
-  padding: 20rem;
+.bg-tertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 174 201 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-20 {
+  padding: 5rem;
+}
+
+.font-Tauri {
+  font-family: Tauri, sans-serif;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
