@@ -38,5 +38,8 @@ module.exports = {
       Tauri: ["Tauri", "sans-serif"],
     },
   },
+  variants: {
+    width: ["responsive", "hover", "focus"],
+  },
   plugins: [],
 };
