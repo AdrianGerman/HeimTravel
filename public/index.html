@@ -13,8 +13,25 @@
     <body>
         <nav></nav>
         <div id="tab_bar"></div>
-        <section>
-            <div id="home"></div>
+        <section class="w-full h-screen">
+            <div id="home">
+                <div class="w-full h-3/4">
+                    <div
+                        class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+                        <input
+                            class="outline-none p-3 rounded-full shadow-sm pl-4"
+                            placeholder="San Francisco" type="search" name id>
+                        <button
+                            class="w-36 rounded-full text-lg text-primary bg-white shadow-sm font-semibold p-4">
+                            Explorar
+                        </button>
+                    </div>
+                    <div class="w-full h-full">
+                        <img src="./assets/img/sanFrancisco.jpg"
+                            alt="san francisco">
+                    </div>
+                </div>
+            </div>
             <div id="recomendadas"></div>
             <div id="rentas_destacadas"></div>
         </section>

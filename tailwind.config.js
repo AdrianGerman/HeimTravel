@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
@@ -17,17 +18,18 @@ module.exports = {
       chicago: "url('/public/assets/img/chicago.jpg')",
       europe: "url('/public/assets/img/europe.jpg')",
       iceland: "url('/public/assets/img/iceland.jpg')",
-    },
-    backgroundColor: (theme) => ({
-      ...theme("color"),
-      primary: "#7611a6",
-      secondary: "#d5873b",
-      tertiary: "#61AEC9",
-    }),
-    textColor: {
-      primary: "#7611a6",
-      secondary: "#d5873b",
-      tertiary: "#61AEC9",
+
+      backgroundColor: (theme) => ({
+        ...theme("color"),
+        primary: "#7611a6",
+        secondary: "#d5873b",
+        tertiary: "#61AEC9",
+      }),
+      textColor: {
+        primary: "#7611a6",
+        secondary: "#d5873b",
+        tertiary: "#61AEC9",
+      },
     },
     fontFamily: {
       Tauri: ["Tauri", "sans-serif"],
